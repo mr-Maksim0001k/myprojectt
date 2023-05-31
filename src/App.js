@@ -1,10 +1,13 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
+import Home from "./Pages/Home/Home";
+import Header from "./Widget/Header/Header";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello world</h1>
+    <div>
+      <Header />
+      <Home />
     </div>
   );
 }
